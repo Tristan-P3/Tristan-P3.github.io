@@ -365,7 +365,7 @@ ul#nav li.current a { color: #F06000; }
   -moz-animation: python 2s ease;
   -webkit-animation: python 2s ease;
 }
-.c, .cplusplus {
+.c, .cpp {
   width: 60%;
   -moz-animation: c 2s ease;
   -webkit-animation: c 2s ease;
@@ -407,7 +407,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -429,7 +429,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes cplusplus {
+@-moz-keyframes cpp {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
