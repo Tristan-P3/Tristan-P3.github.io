@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: "“" "”"; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -800,6 +800,46 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
+}
+
+/* Portfolio Specific Styles */
+.bgrid-quarters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.portfolio-item {
+  flex: 1 1 48%;
+  max-width: 48%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+  background: #eee;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .portfolio-item {
+    max-width: 45%;
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 600px) {
+  .portfolio-item {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
 }
 
 

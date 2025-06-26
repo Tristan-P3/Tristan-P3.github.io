@@ -4,7 +4,7 @@ let resumeData = {
 	"role": "Fullstack Developer",
 	"linkedinId": "tristan-p",
 	"email": "tpeetre@gmail.com",
-	"roleDescription": "I enjoy building both user interfaces and backend systems, exploring the overlap between design and engineering. I like thinking about how systems work, scale, and stay maintainable, and I'm especially interested in interactive design, game mechanics, and developer tooling.",
+	"roleDescription": " I enjoy building both user interfaces and backend systems, exploring the overlap between design and engineering. I like thinking about how systems work, scale, and stay maintainable, and I'm especially interested in interactive design, game mechanics, and developer tooling.",
 	"socialLinks": [
 		{
 			"name": "linkedin",
@@ -34,7 +34,7 @@ let resumeData = {
 	"skillsDescription": "I have experience with a wide range of languages and frameworks, and enjoy working across the stack—from user interfaces and UX to backend logic, APIs, and databases. I prefer working in VS Code, but have also used Visual Studio, Eclipse, and IntelliJ.",
 	"skills": [
 		{ "skillname": "Java" },
-		{ "skillname": "C++" },
+		{ "skillname": "Cpp" },
 		{ "skillname": "Python" },
 		{ "skillname": "JavaScript" },
 		{ "skillname": "TypeScript" },

@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -336,7 +336,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+   width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -355,6 +355,43 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.java {
+  width: 90%;
+  -moz-animation: java 2s ease;
+  -webkit-animation: java 2s ease;
+}
+.python {
+  width: 80%;
+  -moz-animation: python 2s ease;
+  -webkit-animation: python 2s ease;
+}
+.c, .cpp {
+  width: 60%;
+  -moz-animation: c 2s ease;
+  -webkit-animation: c 2s ease;
+}
+.html, .php, .css {
+  width: 60%;
+  -moz-animation: html 2s ease;
+  -webkit-animation: html 2s ease;
+}
+.javascript, .typescript, .angular, .react {
+  width: 40%;
+  -moz-animation: javascript 2s ease;
+  -webkit-animation: javascript 2s ease;
+}
+.sql {
+  width: 80%;
+  -moz-animation: sql 2s ease;
+  -webkit-animation: sql 2s ease;
+}
+.git {
+  width: 70%;
+  -moz-animation: git 2s ease;
+  -webkit-animation: git 2s ease;
+}
+
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -370,7 +407,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -379,6 +416,54 @@ ul#nav li.current a { color: #F06000; }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes cpp {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes typescript {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes angular {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes git {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
 @-webkit-keyframes photoshop {
@@ -404,6 +489,54 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes cplusplus {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes typescript {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes angular {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes git {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -757,7 +890,6 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
