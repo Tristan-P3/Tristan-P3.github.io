@@ -325,6 +325,18 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.bar-expand.java { width: 80%; }
+.bar-expand.cplusplus { width: 75%; }
+.bar-expand.python { width: 85%; }
+.bar-expand.javascript { width: 90%; }
+.bar-expand.typescript { width: 80%; }
+.bar-expand.react { width: 85%; }
+.bar-expand.angular { width: 70%; }
+.bar-expand.html { width: 95%; }
+.bar-expand.css { width: 90%; }
+.bar-expand.sql { width: 75%; }
+.bar-expand.git { width: 80%; }
+
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
