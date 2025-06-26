@@ -811,8 +811,8 @@ properly.
 }
 
 .portfolio-item {
-  flex: 1 1 40%; /* 4 columns, adjust as needed */
-  max-width: 40%;
+  flex: 1 1 48%;
+  max-width: 48%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
