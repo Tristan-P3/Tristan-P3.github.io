@@ -2,7 +2,7 @@
 	"name": "resume",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://tristan-p3.github.io/",
+	"homepage": "https://Tristan-P3.github.io",
 	"dependencies": {
 		"react": "^16.6.0",
 		"react-dom": "^16.6.0",
