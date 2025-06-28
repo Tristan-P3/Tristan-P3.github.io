@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #FFFF1e; }
 
 
 /* ------------------------------------------------------------------ */
@@ -293,7 +293,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars .skills {
   	margin-top: 36px;
-   list-style: none;
+   	list-style: none;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
 }
 .bars li {
    position: relative;
