@@ -867,6 +867,10 @@ properly.
   }
 }
 
+#portfolio .row {
+  max-width: 1400px;
+}
+
 
 
 

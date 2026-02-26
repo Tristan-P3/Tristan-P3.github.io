@@ -80,6 +80,12 @@ let resumeData = {
 			"description": "A game I developed for a course project in Unity, a 3D roguelike where you chop down trees to make yourself better at chopping down trees. It's available free on itch.io.",
 			"imgurl": "images/portfolio/tree_surgeon.gif",
 			"link": "https://tayberry.itch.io/tree-surgeon"
+		},
+		{
+			"name": "Pale Man gets a tan",
+			"description": "A game I developed in a team for the GMTK game jam, a 3D game where you traverse through space by jumping planets. Available free on itch.io.",
+			"imgurl": "images/portfolio/paleman.gif",
+			"link": "https://henkehedstrom.itch.io/paleman"
 		}
 	],
 	"testimonials": [
